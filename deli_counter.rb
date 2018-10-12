@@ -53,3 +53,5 @@ take_a_number(katz_deli)
 take_a_number(katz_deli)
 puts katz_deli
 now_serving(katz_deli)
+now_serving(katz_deli)
+take_a_number(katz_deli)
