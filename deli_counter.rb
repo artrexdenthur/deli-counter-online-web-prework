@@ -44,3 +44,5 @@ def now_serving(cur_line)
   end
 end
 
+take_a_number(katz_deli, "Paul")
+
