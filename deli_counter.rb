@@ -45,6 +45,6 @@ def now_serving(cur_line)
 end
 
 take_a_number(katz_deli, "Paul")
-
-puts 
+take_a_number(katz_deli, "Cernan")
+puts katz_deli
 now_serving(katz_deli)
