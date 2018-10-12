@@ -45,4 +45,4 @@ def now_serving(cur_line)
 end
 
 take_a_number(katz_deli, "Paul")
-
+puts katz_deli
