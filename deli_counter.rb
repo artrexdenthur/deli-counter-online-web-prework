@@ -1,6 +1,7 @@
 # Write your code here.
 
 #an array of ticket numbers
+$cur_num = 1
 katz_deli = []
 
 def line(cur_line)
@@ -22,11 +23,8 @@ def take_a_number(cur_line)
   # takes the current line and the name of 
   # the person joining the line 
   
-  if cur_line.length == 0
-    cur_line.push(1)
-  else
-    cur_line.push(cur_line[-1] + 1)
-  end
+  cur_line.push($cur_num)
+  $cur_num += 1
   
   # calls puts with the name and their position
   
