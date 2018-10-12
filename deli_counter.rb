@@ -49,7 +49,7 @@ def now_serving(cur_line)
   end
 end
 
-take_a_number(katz_deli, "Paul")
-take_a_number(katz_deli, "Cernan")
+take_a_number(katz_deli)
+take_a_number(katz_deli)
 puts katz_deli
 now_serving(katz_deli)
