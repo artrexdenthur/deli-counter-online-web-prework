@@ -1,5 +1,6 @@
 # Write your code here.
 
+#an array of ticket numbers
 katz_deli = []
 
 def line(cur_line)
@@ -17,15 +18,19 @@ def line(cur_line)
   end
 end
 
-def take_a_number(cur_line, new_person)
+def take_a_number(cur_line)
   # takes the current line and the name of 
   # the person joining the line 
   
-  cur_line.push(new_person)
+  if cur_line.length == 0
+    cur_line.push(1)
+  else
+    cur_line.push(cur_line[-1] + 1)
+  end
   
   # calls puts with the name and their position
   
-  puts "Welcome, #{new_person}. You are number #{cur_line.length} in line."
+  puts "Welcome, you are ticket number #{cur_line[-1]} and you are number #{cur_line.length} in line."
   
 end
 
